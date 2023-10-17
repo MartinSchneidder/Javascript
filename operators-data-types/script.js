@@ -7,6 +7,12 @@ console.log("M" + "a" + "r" + "t" + "i" + "n" + " " + "Schneider ");
 // Error! Make it work
 console.log("Hallo");
 
+//whats happening here?!!!!!!!!!!!!
+console.log("");
+console.log("Hallo" >= "hallo");
+console.log("Hallo" <= "hallo");
+console.log("");
+
 // Error! Make it work
 console.log("That doesn't work");
 
