@@ -1,5 +1,5 @@
 /**
- * Finds the index of an element in an array
+ * Finds the index of an element "needle" in an array
  * @param {Array} haystack
  */
 function findNeedle(haystack) {
