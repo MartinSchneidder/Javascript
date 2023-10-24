@@ -7,7 +7,7 @@
 function squareSum(arr) {
   let sum = 0;
   for (let index = 0; index < arr.length; index++) {
-    sum += arr[index] * arr[index];
+    sum += arr[index] ** 2; // arr[index]*arr[index]
   }
   return sum;
 }
