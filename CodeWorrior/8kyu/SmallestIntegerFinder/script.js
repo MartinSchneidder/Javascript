@@ -22,8 +22,10 @@ let arr = [1, 2, 3, 4, 5, 6, -5];
 
 console.log(fun_findSmallestInt(arr));
 
+// Unterschied: Übergabewerte an Objekt
 const p = new SmallestIntegerFinder();
 console.log(p.findSmallestInt(arr));
 
+// Unterschied: Arbeiten auf initialisiertem Objekt
 const q = new SmallestIntegerFinder([1, 2, 3]);
 console.log(q.findBiggesttInt());
