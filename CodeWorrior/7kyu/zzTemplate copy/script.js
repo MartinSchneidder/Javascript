@@ -17,6 +17,11 @@ function getCount(str) {
 console.log(getCount("abracadabra"));
 
 //OR IN NICE
-function getCount2(str) {
-  return (str.match(/[aeiou]/gi) || []).length;
-}
+// function getCount2(str) {
+//   return (str.match(/[aeiou]/gi) || []).length;
+// }
+
+// var num = 112233;
+// var re = /(\d+)(\d{3})/;
+// console.log(re.test(num));
+// console.log(num.replace(re, "$1,$2"));
